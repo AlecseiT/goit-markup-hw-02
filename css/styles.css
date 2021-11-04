@@ -1,1 +1,13 @@
-
+:root {
+  --main-title-color: #212121;
+  --link-color: #212121;
+  --main-text-color: #757575;
+  --main-contact-color: #757575;
+  --navigation-second-color: #2196f3;
+  --btn-second-color: #2196f3;
+  --second-contact-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+}
