@@ -69,3 +69,29 @@ body {
 .header-contacts:focus {
   color: var(--navigation-second-color);
 }
+/* -------------------Hero section--------------------- */
+.hero-section {
+  background-color: #2f303a;
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--btn-second-color);
+}
+.btn-pointer {
+  cursor: pointer;
+}
