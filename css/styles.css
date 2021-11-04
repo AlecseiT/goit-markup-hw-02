@@ -2,7 +2,7 @@
   --main-title-color: #212121;
   --link-color: #212121;
   --main-text-color: #757575;
-  --main-contact-color: #757575;
+  --main-contacts-color: #757575;
   --navigation-second-color: #2196f3;
   --btn-second-color: #2196f3;
   --second-contact-color: rgba(255, 255, 255, 0.6);
@@ -31,7 +31,8 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
-/* ---------LOGO---------- */
+/* -----------------Header------------------- */
+/* ---------Logo---------- */
 .logo-link {
   font-family: Raleway;
   font-weight: 700;
@@ -39,9 +40,32 @@ body {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--navigation-second-color);
-  }
+}
 
-  .logo{
-      color: #000000;
-  }
+.logo {
+  color: #000000;
+}
+
+/* --------Navigation-------- */
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--link-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: var(--navigation-second-color);
+}
+.header-contacts {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-contacts-color);
+}
+.header-contacts:hover,
+.header-contacts:focus {
+  color: var(--navigation-second-color);
 }
