@@ -1,14 +1,11 @@
 :root {
-  --main-title-color: #212121;
-  --link-color: #212121;
-  --main-text-color: #757575;
-  --main-contacts-color: #757575;
-  --navigation-second-color: #2196f3;
-  --btn-second-color: #2196f3;
-  --second-contact-color: rgba(255, 255, 255, 0.6);
+  --main-first-color: #212121;
+  --main-second-color: #757575;
+  --navigation-btn-color: #2196f3;
+  --footer-contact-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  color: #212121;
+  color: var(--main-first-color);
   font-family: 'Roboto', sans-serif;
 }
 .link {
@@ -39,7 +36,7 @@ body {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--navigation-second-color);
+  color: var(--navigation-btn-color);
 }
 
 .logo-header {
@@ -55,24 +52,24 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--link-color);
+  color: var(--main-first-color);
 }
 .header-link:hover,
 .header-link:focus {
-  color: var(--navigation-second-color);
+  color: var(--navigation-btn-color);
 }
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--main-contacts-color);
+  color: var(--main-second-color);
 }
 .header-contacts:hover,
 .header-contacts:focus {
-  color: var(--navigation-second-color);
+  color: var(--navigation-btn-color);
 }
-/* -------------------Hero section--------------------- */
+/* -------------------Hero section studio-------------------- */
 .hero-section {
   background-color: #2f303a;
 }
@@ -93,7 +90,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: #ffffff;
-  background-color: var(--btn-second-color);
+  background-color: var(--navigation-btn-color);
 }
 .btn-pointer {
   cursor: pointer;
@@ -102,31 +99,31 @@ body {
 .hero-btn:focus {
   background-color: #188ce8;
 }
-/* -----------------Our qualities------------------------------ */
+/* -----------------Our qualities studio------------------------------ */
 .qualities-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--main-title-color);
+  color: var(--main-first-color);
 }
 .qualities-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--main-second-color);
 }
-/* ------------------About our work section--------------------- */
+/* ------------------About our work studio--------------------- */
 .our-work-title {
   font-weight: 700d;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: var(--main-first-color);
 }
-/* ------------------Our team section--------------------------- */
+/* ------------------Our team studio--------------------------- */
 .our-team-section {
   background-color: #f5f4fa;
 }
@@ -136,7 +133,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: var(--main-first-color);
 }
 .teammate-title {
   font-weight: 500;
@@ -144,15 +141,31 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-title-color);
+  color: var(--main-first-color);
 }
 .our-team-name {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--main-text-color);
+  color: var(--main-second-color);
 }
+/* -----------------------Our portfolio--------------- */
+
+.portfolio-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background: var(--navigation-btn-color);
+}
+
 /* ----------------------Footer---------------------------- */
 .footer {
   background-color: #2f303a;
@@ -169,9 +182,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--second-contact-color);
+  color: var(--footer-contact-color);
 }
 .link-contacts:hover,
 .link-contacts:focus {
-  color: var(--navigation-second-color);
+  color: var(--navigation-btn-color);
 }
