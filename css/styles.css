@@ -95,3 +95,22 @@ body {
 .btn-pointer {
   cursor: pointer;
 }
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: #188ce8;
+}
+/* -----------------Our qualities--------------------------- */
+.qualities-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
+.qualities-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
