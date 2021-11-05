@@ -99,7 +99,7 @@ body {
 .hero-btn:focus {
   background-color: #188ce8;
 }
-/* -----------------Our qualities--------------------------- */
+/* -----------------Our qualities------------------------------ */
 .qualities-title {
   font-weight: 700;
   font-size: 14px;
@@ -111,6 +111,42 @@ body {
 .qualities-text {
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* ------------------About our work section--------------------- */
+.our-work-title {
+  font-weight: 700d;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+/* ------------------Our team section--------------------------- */
+.our-team-section {
+  background-color: #f5f4fa;
+}
+.our-team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.teammate-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
+}
+.our-team-name {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
