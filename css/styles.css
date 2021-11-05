@@ -58,6 +58,10 @@ body {
 .header-link:focus {
   color: var(--navigation-btn-color);
 }
+.header-link:active {
+  color: var(--navigation-btn-color);
+}
+
 .header-contacts {
   font-weight: 500;
   font-size: 14px;
@@ -152,18 +156,33 @@ body {
 }
 /* -----------------------Our portfolio--------------- */
 
-.portfolio-btn {
+.filter-btn {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
   background: #f5f4fa;
+  cursor: pointer;
 }
-.portfolio-btn:hover,
-.portfolio-btn:focus {
+.filter-btn:hover,
+.filter-btn:focus {
   color: #ffffff;
   background: var(--navigation-btn-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-first-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--main-second-color);
 }
 
 /* ----------------------Footer---------------------------- */
